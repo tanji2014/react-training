@@ -10,7 +10,7 @@ class Profile extends React.Component {
 				<div className='profile-bio'>
 			 		<p>紹介文：{this.props.bio}</p>
 				</div>
-				<img className='profile-image' src={this.props.image}/>
+				<img className='profile-image' src={this.props.photo}/>
 			</div>
 					
 		);
